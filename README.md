@@ -45,12 +45,33 @@ Adds it to Git’s history as a commit.
 | Staged    | Ready to commit            | `git commit`                  |
 | Committed | Saved in Git history       | –                             |
 
+✅ 5.branching stratergy
 
-Example Flow:
-git init
-git status       # file.txt is untracked
-git add .        # file.txt is staged
-git status       # file.txt is ready to commit
-git commit -m "Added file.txt"
+>>> git branch -m main
+---> to create main branch
+---> this main branch includes production ready code (so don't directly push to main branch)
+
+>>> git checkout -b vinay(branch_name)
+---->this is to create feature branch and to enter in that
+
+>>> git branch branch_name
+---->if we just want create branch name
+
+push to whichever branch you want 
+>>> git push -u origin branchname
+
+✅ 6. clone vs pull
+
+# Clone once (it copy the repo from remote to local)
+# use this when you are first time working
+>>> git clone https://github.com/user/repo.git
+
+# Later, pull updates from remote
+#if we make any changes in global repo it doesn't appear in local ,so pull updates in local repo
+>>> git pull origin main
+
+
+
+
 
 
