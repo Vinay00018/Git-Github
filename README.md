@@ -47,7 +47,6 @@ Adds it to Git’s history as a commit.
 
 
 Example Flow:
-
 git init
 git status       # file.txt is untracked
 git add .        # file.txt is staged
