@@ -12,6 +12,8 @@ Untracked – Git doesn’t know it yet.
 
 >>> git status (it helps to check status in the sense file is tracked or staged or modified or committed)
 ----> initially the file is untracked once you run the git add . command the git started to track (staged) the file
+
+
 ✅ 3. git add .
 Command:
 git add .
